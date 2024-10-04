@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    box-shadow: 1px 1px 6px 2px #00000069;
+}
+
+.files{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+#files-form input, #files-form button{
+    padding:  1rem;
+    font-size: 1.2rem;
+    background-color: #E3DfDF;
+    font-family: "Afacad Flux", sans-serif;
+    border-radius: 1%;
+}
+
+#files-form button{
+    outline: none;
+    border: 1px solid #bb5f6ec0;
+    background-color: #E3DfDF;
+    color: #00000069;
+    
+    cursor: pointer;
+}
+
+#files-form button:hover{
+    background-color: #bb5f6ec0;
+    color: #FFFFFF;
+}
+
+#preview-file{
+    display: none;
+}
+
+
+.file-content{
+    width: 50%;
+    padding: 1rem 2rem;
+}
